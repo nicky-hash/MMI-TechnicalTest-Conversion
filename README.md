@@ -10,21 +10,21 @@ Conversion  of units
     7. The project must be able to run in its own Docker environment 
     8. Build system must use Maven.
 	
-How to test the app using Postman
+How to test the app using Postman 
 	1.These are different  Api’s base on you can use your request.
-	a.	The port number was use for my testing
-	b.	Append with an api on the url.
-	c.	POST:Url : //localhost:8080
-		•	"/api/v1/celsiusfahrenheit"
-		•	"/api/v1/fahrenheitcelsius"
-		•	"/api/v1/acreshectare"
-		•	"/api/v1/hectareacres"
-		•	"/api/v1/kilogrampound"
-		•	"/api/v1/poundkilogram"
-		•	"/api/v1/kilometermile"
-		•	"/api/v1/milekilometer"
-		•	"/api/v1/gallonliter"
-		•	"/api/v1/litergallon
+		a.	The port number was use for my testing
+		b.	Append with an api on the url.
+		c.	POST:Url : //localhost:8080
+			•	"/api/v1/celsiusfahrenheit"
+			•	"/api/v1/fahrenheitcelsius"
+			•	"/api/v1/acreshectare"
+			•	"/api/v1/hectareacres"
+			•	"/api/v1/kilogrampound"
+			•	"/api/v1/poundkilogram"
+			•	"/api/v1/kilometermile"
+			•	"/api/v1/milekilometer"
+			•	"/api/v1/gallonliter"
+			•	"/api/v1/litergallon
 	Payload:
 	{
 		"unitType":"CelsiustoFahrenheit",
