@@ -28,14 +28,12 @@ public class ConverterController {
     @RequestMapping(value="/celsiusfahrenheit", method = RequestMethod.POST)    
     public ResponseEntity<OutputConverterDTO> getCelsiusFahrenheit(@RequestBody InputConverterDTO converterDTO){                   
         OutputConverterDTO dto = converterService.convertCelsiusFahrenheit(converterDTO);
-        System.out.println("Request "+converterDTO +"Response "+dto);
         return new ResponseEntity<>(converterService.convertCelsiusFahrenheit(converterDTO),HttpStatus.OK);
     }
     //this RequestResponse method Celsius Fahrenheit and vice versa    
     @RequestMapping(value="/fahrenheitcelsius", method = RequestMethod.POST)    
     public ResponseEntity<OutputConverterDTO> getFahrenheitCelsius(@RequestBody InputConverterDTO converterDTO){                   
         OutputConverterDTO dto = converterService.convertCelsiusFahrenheit(converterDTO);
-        System.out.println("Request "+converterDTO +"Response "+dto);
         return new ResponseEntity<>(converterService.convertCelsiusFahrenheit(converterDTO),HttpStatus.OK);
     }    
     //this RequestResponse method Acres Hectare and vice versa    
