@@ -15,17 +15,16 @@ How to test the app using Postman
 a.	The port number was use for my testing
 b.	Append with an api on the url.
 c.	POST:Url : //localhost:8080/api/v1/celsiusfahrenheit
-    •	"/celsiusfahrenheit"
-    •	"/fahrenheitcelsius"
-    •	"/acreshectare"
-    •	"/hectareacres"
-    •	"/kilogrampound"
-    •	"/poundkilogram"
-    •	"/kilometermile"
-    •	"/milekilometer"
-    •	"/gallonliter"
-    •	"/litergallon
-Request Example:    
+•	"/celsiusfahrenheit"
+•	"/fahrenheitcelsius"
+•	"/acreshectare"
+•	"/hectareacres"
+•	"/kilogrampound"
+•	"/poundkilogram"
+•	"/kilometermile"
+•	"/milekilometer"
+•	"/gallonliter"
+•	"/litergallon
 Payload:
 {
 "unitType":"CelsiustoFahrenheit",
@@ -38,6 +37,8 @@ Angular8 Presentation
 •	-just put the url: http://localhost:4200/
 •	-enter metrix or imperial then press convert..
 •	-You don’t need to append with an api.
+
+
 
  
 
