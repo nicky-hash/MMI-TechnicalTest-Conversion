@@ -49,10 +49,7 @@ export class UnitConvertComponent implements OnInit {
   convert(data:any){   
       this.service.convert(data).subscribe(resp =>{
         this.responseValue = resp;
-      }
-        )
-      
-  }
- 
+      })      
+  } 
   
 }
