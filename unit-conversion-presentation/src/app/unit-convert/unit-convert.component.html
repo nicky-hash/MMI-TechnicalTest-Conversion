@@ -1,0 +1,30 @@
+
+<div class="container">
+  <h1>
+    {{title}}
+  </h1>
+<form [formGroup]="convertForm" (ngSubmit)="convert(convertForm.value)">
+  <div>
+    <select formControlName="unit" [(ngModel)]="selectedItem"> 
+      <option [ngValue]="null" disabled>Select Conversion</option>     
+      <option *ngFor="let unit of unitList" [ngValue]="unit" >{{unit.metricToImperial | lowercase}} </option>      
+    </select> 
+  </div> 
+  <br>  
+  <div>
+      <label for="name">From--{{selectedItem.unitName_1}}</label>
+      <input type="text" class="form-control" id="input" 
+        placeholder="Enter Unit Value" formControlName="input" />
+  </div>
+  <br> 
+  <div>
+    <label for="name">To--{{selectedItem.unitName_2}}</label>
+    <input type="text" class="form-control" id="output" 
+      placeholder="Result " formControlName="output" [value]=responseValue.unitValue/>
+</div>   
+<br>
+<div>
+  <button type="submit" >Submit</button>
+</div> 
+</form>
+
