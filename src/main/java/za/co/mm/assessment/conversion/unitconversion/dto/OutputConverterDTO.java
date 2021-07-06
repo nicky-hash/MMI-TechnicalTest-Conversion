@@ -30,5 +30,11 @@ public class OutputConverterDTO {
 
     public void setUnitValue(double unitValue) {
         this.unitValue = unitValue;
-    }    
+    }   
+
+    @Override
+    public String toString() {
+        return "OutputConverterDTO{" + "unitType=" + unitType + ", unitValue=" + unitValue + '}';
+    }
+    
 }
