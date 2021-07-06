@@ -1,5 +1,9 @@
 # MMI-TechnicalTest-Conversion
 Conversion  of units
+<<<<<<< HEAD
+=======
+
+>>>>>>> d4450475305589bd579afd6d3e2a252965661689
     Technical test instructions:    
     1. Create a Spring Boot application using rest API’s to do a conversions. 
     2. Convert Metric to imperial and vice versa. The API must cater for at least 5 conversions (include temperature conversion please). 
@@ -9,6 +13,7 @@ Conversion  of units
     6. Upload your project into your own GIT repository and share the project with us. 
     7. The project must be able to run in its own Docker environment 
     8. Build system must use Maven.
+<<<<<<< HEAD
 	
 How to test the app using Postman 
 	1.These are different  Api’s base on you can use your request.
@@ -39,4 +44,39 @@ Angular8 Presentation
 	•	-enter metrix or imperial then press convert..
 	•	-You don’t need to append with an api.
 
+=======
+    
+    
+How to test the app using Postman
+1.These are different  Api’s base you can use your to request.
+a.	The port number was use for my testing
+b.	Append with an api on the url.
+c.	POST:Url : //localhost:8080/api/v1/celsiusfahrenheit
+•	"/celsiusfahrenheit"
+•	"/fahrenheitcelsius"
+•	"/acreshectare"
+•	"/hectareacres"
+•	"/kilogrampound"
+•	"/poundkilogram"
+•	"/kilometermile"
+•	"/milekilometer"
+•	"/gallonliter"
+•	"/litergallon
+Payload:
+{
+"unitType":"CelsiustoFahrenheit",
+"unitValue":37
+}
+
+Angular8 Presentation
+•	After you have started springboot app then you can run angular application.
+•	Angular App will be running on.
+•	-just put the url: http://localhost:4200/
+•	-enter metrix or imperial then press convert..
+•	-You don’t need to append with an api.
+
+
+
+ 
+>>>>>>> d4450475305589bd579afd6d3e2a252965661689
 
